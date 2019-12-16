@@ -70,6 +70,18 @@
 #contactme-two {
   transition: margin-left 0.5s ease;
   margin-left: 300px;
+  text-decoration: none;
+  color: #FD4345;
+}
+
+#contactme-one {
+  text-decoration: none;
+  color: #FD4345;
+}
+
+#projects-in {
+  text-decoration: none;
+  color: #FD4345;
 }
 
 #projects-out {
@@ -77,19 +89,126 @@
 }
 
 #projects-section {
+  height: 100vh;
+}
+
+#modal {
+  width: 500px;
   height: 500px;
+  background-image: linear-gradient(to bottom left, #FD4345, rgb(240, 240, 234));
+  position: relative;
+  bottom: 671px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  right: 250px;
+}
+
+#modal button {
+  width: 5%;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;  
+}
+
+#modal button:hover {
+  color: #263547;
+}
+
+#modal button:focus {
+  outline: none;
+}
+
+#modal p {
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#modal-two {
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(to bottom left, #FD4345, rgb(240, 240, 234));
+  position: relative;
+  bottom: 671px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  right: 250px;
 }
 
 
+#modal-two button {
+  width: 5%;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;  
+}
 
+#modal-two button:hover {
+  color: #263547;
+}
 
+#modal-two button:focus {
+  outline: none;
+}
 
+#modal-three {
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(to bottom left, #FD4345, rgb(240, 240, 234));
+  position: relative;
+  bottom: 671px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  right: 250px;
+}
 
+#modal-three button {
+  width: 5%;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;  
+}
 
+#modal-three button:hover {
+  color: #263547;
+}
 
+#modal-three button:focus {
+  outline: none;
+}
 
+#modal-four {
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(to bottom left, #FD4345, rgb(240, 240, 234));
+  position: relative;
+  bottom: 671px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  right: 250px;
+}
 
+#modal-four button {
+  width: 5%;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;  
+}
 
+#modal-four button:hover {
+  color: #263547;
+}
+
+#modal-four button:focus {
+  outline: none;
+}
 
 /* *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; } // required */
 .grid {
@@ -99,7 +218,12 @@
 	padding: 1em 0 4em;
 	max-width: 1000px;
 	list-style: none;
-	text-align: center;
+  text-align: center;
+}
+
+#highlighted-pros {
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
 /* Common style */
@@ -177,24 +301,6 @@
 	font-size: 68.5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 section.effect-terry {
 	background: #263547;
 }
@@ -260,6 +366,11 @@ section.effect-terry h2 {
 	}
 }
 
+#abook-section {
+  position: relative;
+  bottom: 322px;
+}
+
 section.effect-terry p {
 	float: right;
 	clear: both;
@@ -270,25 +381,102 @@ section.effect-terry p {
 
 section.effect-terry p a {
 	display: block;
-	margin-bottom: -4em;
+	margin-bottom: -179px;
 	color: #fff;
 	opacity: 0;
 	-webkit-transform: translate3d(90px,0,0);
-	transform: translate3d(90px,0,0);
+  transform: translate3d(90px,0,0);
+  text-align: right;
+  text-decoration: none;
 }
 
 section.effect-terry p a img {
   width: 38px;
+  margin-left: 100px;
+  margin-top: 20px;
+  position: relative;
+  bottom: 268px;
 }
 
-.last-anchor {
-  margin-top: -92px !important;
+#parkvision-git {
+  width: 38px;
+  margin-left: 100px;
+  margin-top: 20px;
+  position: relative;
+  bottom: 63px;
+}
+
+#about {
+  text-align: right;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-left: 100px;
+  position: relative;
+  bottom: 263px;
+}
+
+#parkvision-about {
+  text-align: right;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-left: 100px;
+  position: relative;
+  bottom: 49px;
+}
+
+#second-anchor {
+  margin-bottom: 32px;
+  position: relative;
+  bottom: 124px;
+  right: 11px;
+}
+
+.html-parkvision {
+    position: relative;
+    bottom: 103px;
+    right: 11px;
+}
+
+#last-anchor {
+  margin-bottom: 32px;
+  color: white;
+  position: relative;
+  bottom: 47px;
+  right: 11px;
+}
+
+#last-anchor-parkvision {
+  margin-bottom: 32px;
+  color: white;
+  position: relative;
+  right: 11px;
+  top: 123px;
+}
+
+#undiclosed-h2 {
+  text-align: initial;
+}
+
+#undisclosed-css {
+  margin-bottom: 32px;
+  color: white;
+  position: relative;
+  right: 11px;
+  top: 123px;
+}
+
+#undisclosed-express {
+  margin-bottom: 32px;
+  color: white;
+  position: relative;
+  right: 11px;
+  top: 94px;
 }
 
 section.effect-terry p a:hover img,
 section.effect-terry p a:hover,
 section.effect-terry p a:focus {
-  color: #f3cf3f;
+  color: #FD4345;
   -webkit-filter: brightness(200%); /* Safari */
   filter: brightness(200%);
 }
@@ -332,4 +520,58 @@ section.effect-terry:hover p a:nth-child(3) {
 section.effect-terry:hover p a:nth-child(4) {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
+}
+
+#footer {
+  height: 140px;
+  background-color: #FD4345;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  align-items: center;
+}
+
+#footer h3 {
+  margin: 0;
+}
+
+#contact-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 19%;
+  height: 100%;
+  
+}
+
+#email-logo {
+  width: 97px;
+  transition: width 0.5s ease;
+}
+
+#email-logo:hover {
+  width: 100px;
+}
+
+#email-logo:focus {
+  outline: none;
+}
+
+#linkedin-logo {
+  width: 7%;
+  transition: width 0.5s ease;
+}
+
+#linkedin-logo:hover {
+  width: 8%;
+}
+
+#name-linkedin {
+  width: 50%;
+  text-align: center;
+}
+
+#name-linkedin h3 {
+  margin: 0;
 }
