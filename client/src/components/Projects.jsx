@@ -22,7 +22,7 @@ export default function Projects(props) {
                   props.showModal();
                 }} href="#modal" id="about">about</a>
               
-                <a href="https://github.com/nehemias-bit/second-project.git" target="_blank"><img src="http://pngimg.com/uploads/github/github_PNG45.png" /></a>
+                <a href="https://github.com/nehemias-bit/second-project.git" target="_blank" rel="noopener noreferrer"><img src="http://pngimg.com/uploads/github/github_PNG45.png" alt="git hub logo"/></a>
 
               <a href="#" id="last-anchor"><i class="devicon-javascript-plain"></i></a>
               
@@ -44,7 +44,7 @@ export default function Projects(props) {
                   props.showModalTwo();
                 }} href="#modal-two" id="parkvision-about">about</a>
               
-                <a href="https://github.com/nehemias-bit/First-Project.git" target="_blank"><img id="parkvision-git" src="http://pngimg.com/uploads/github/github_PNG45.png" /></a>
+                <a href="https://github.com/nehemias-bit/First-Project.git" target="_blank" rel="noopener noreferrer"><img id="parkvision-git" src="http://pngimg.com/uploads/github/github_PNG45.png" alt="git hub logo"/></a>
               
               <a href="#" id="last-anchor-parkvision"><i class="devicon-javascript-plain"></i></a>
               
@@ -70,7 +70,7 @@ export default function Projects(props) {
                   props.showModalThree();
                   }} href="#modal-two" id="parkvision-about">about</a>
               
-                <a href="https://github.com/nehemias-bit/Undisclosed.git" target="_blank"><img id="parkvision-git" src="http://pngimg.com/uploads/github/github_PNG45.png" alt="website screenshot" /></a>
+                <a href="https://github.com/nehemias-bit/Undisclosed.git" target="_blank" rel="noopener noreferrer"><img id="parkvision-git" src="http://pngimg.com/uploads/github/github_PNG45.png" alt="website screenshot" /></a>
               
               <a href="#" id="last-anchor-parkvision"><i class="devicon-javascript-plain"></i></a>
               
@@ -95,7 +95,7 @@ export default function Projects(props) {
                   props.showModalFour();
                   }} href="#modal-two" id="parkvision-about">about</a>
               
-                <a href="https://github.com/nehemias-bit/abook.git" target="_blank"><img id="parkvision-git" src="http://pngimg.com/uploads/github/github_PNG45.png" alt="website screenshot" /></a>
+                <a href="https://github.com/nehemias-bit/abook.git" target="_blank" rel="noopener noreferrer"><img id="parkvision-git" src="http://pngimg.com/uploads/github/github_PNG45.png" alt="website screenshot" /></a>
               
               <a href="#" id="last-anchor-parkvision"><i class="devicon-javascript-plain"></i></a>
               

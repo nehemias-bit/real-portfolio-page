@@ -74,14 +74,64 @@
   color: #FD4345;
 }
 
+#contactme-two:hover {
+color: white;
+}
+
+#contactme-two:focus {
+outline: none;
+}
+
 #contactme-one {
   text-decoration: none;
   color: #FD4345;
 }
 
+#contactme-one:hover {
+  color: white;
+}
+
+#contactme-one:focus {
+outline: none;
+}
+
+#about-me {
+  text-decoration: none;
+  color: #FD4345;
+}
+
+#about-me:hover {
+  color: white;
+}
+
+#about-me:focus {
+outline: none;
+}
+
+#about-me-two {
+  text-decoration: none;
+  color: #FD4345;
+}
+
+#about-me-two:hover {
+  color: white;
+}
+
+#about-me-two:focus {
+outline: none;
+}
+
 #projects-in {
   text-decoration: none;
   color: #FD4345;
+}
+
+#projects-in:hover {
+color: white;
+}
+
+#projects-in:focus {
+outline: none;
 }
 
 #projects-out {

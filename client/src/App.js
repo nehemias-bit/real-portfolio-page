@@ -66,9 +66,13 @@ class App extends Component {
     return (
       <div className="app">
         <Header scrollY={this.state.scrollY} />
+
         <Splash />
-        <Projects showModal={this.showModal} showModalTwo={this.showModalTwo} showModalThree={this.showModalThree} showModalFour={this.showModalFour}/>
+
+        <Projects showModal={this.showModal} showModalTwo={this.showModalTwo} showModalThree={this.showModalThree} showModalFour={this.showModalFour} />
+        
         <Modal show={this.state.show} showTwo={this.state.showTwo} showThree={this.state.showThree} showFour={this.state.showFour} closeModal={this.closeModal} />
+        
         <Footer />
       </div>
     );
