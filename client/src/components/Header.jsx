@@ -8,7 +8,7 @@ export default function Header(props) {
         {
           props.scrollY < 200 ?
             <div id="header-anchor">
-              <a href="#contact" id="contactme-one">Contact Me</a>
+              <a href='mailto:nemicruz003@gmail.com' target="_blank" rel="noopener noreferrer" id="contactme-one">Contact Me</a>
               <a href="#projects-section" id="projects-in">Projects</a>
               <a href="https://docdro.id/AOW8f68" target="_blank" rel="noopener noreferrer" id="about-me">About Me</a>
             </div> :

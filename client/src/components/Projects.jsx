@@ -82,6 +82,8 @@ export default function Projects(props) {
 						</div>			
           </section>
         
+
+        
           {/* abook */}
 					<section className="effect-terry" id="abook-section">
 						<img src="https://i.imgur.com/enNGywo.png" alt="img26"/>

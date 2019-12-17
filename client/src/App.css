@@ -37,6 +37,7 @@
   left: 8px;
   font-family: 'Montserrat', sans-serif;
   color: #263547;
+  padding-left: 30px;
 }
 
 #header {
@@ -487,12 +488,20 @@ section.effect-terry p a img {
     right: 11px;
 }
 
+.html-parkvision:hover {
+color: #FD4345;
+}
+
 #last-anchor {
   margin-bottom: 32px;
   color: white;
   position: relative;
   bottom: 47px;
   right: 11px;
+}
+
+#last-anchor:hover {
+color: #FD4345;
 }
 
 #last-anchor-parkvision {
