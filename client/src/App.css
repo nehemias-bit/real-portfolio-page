@@ -56,6 +56,7 @@
   color: #FD4345;
   margin-left: 35px;
   z-index: 99;
+  font-size: 30px;
 }
 
 #header-anchor-two {
@@ -66,6 +67,7 @@
   color: #FD4345;
   margin-left: 35px;
   z-index: 99;
+  font-size: 30px;
 }
 
 #contactme-two {
@@ -144,8 +146,8 @@ outline: none;
 }
 
 #modal {
-  width: 500px;
-  height: 500px;
+  width: 616px;
+  height: 539px;
   background-color: white;
   position: relative;
   bottom: 665px;
@@ -209,49 +211,111 @@ color: #FD4345;
   width: 100%;
 }
 
-.modal-content video {
-  display: grid;
-}
-
 #modal-two {
-  width: 500px;
-  height: 500px;
-  background-image: linear-gradient(to bottom left, #FD4345, rgb(240, 240, 234));
+  width: 616px;
+  height: 539px;
+  background-color: white;
   position: relative;
   bottom: 671px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   right: 250px;
+  border: 1px solid #35614A;
+  border-radius: 5px;
 }
 
+#modal-two-h1-div {
+  width: 100%;
+}
+
+#modal-two p {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#modal-two h1 {
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #35614A;
+}
 
 #modal-two button {
   width: 5%;
-  color: white;
+  color: #35614A;
   font-weight: bold;
   background-color: transparent;
   border: none;  
 }
 
 #modal-two button:hover {
-  color: #263547;
+  color: #FD4345;
 }
 
 #modal-two button:focus {
   outline: none;
 }
 
+#modal-two a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #263547;
+  height: 20px;
+}
+
+#modal-two a:hover {
+  color: #35614A;
+}
+
 #modal-three {
-  width: 500px;
-  height: 500px;
-  background-image: linear-gradient(to bottom left, #FD4345, rgb(240, 240, 234));
+  width: 616px;
+  height: 539px;
+  background-color: black;
   position: relative;
   bottom: 671px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   right: 250px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#modal-three p {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#modal-three-h1-div {
+  width: 100%;
+}
+
+#modal-three h1 {
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+#modal-three a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  height: 20px;
+}
+
+#modal-three a:hover {
+  color: black;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
 }
 
 #modal-three button {
@@ -263,7 +327,7 @@ color: #FD4345;
 }
 
 #modal-three button:hover {
-  color: #263547;
+  color: #FD4345;
 }
 
 #modal-three button:focus {
@@ -271,27 +335,58 @@ color: #FD4345;
 }
 
 #modal-four {
-  width: 500px;
-  height: 500px;
-  background-image: linear-gradient(to bottom left, #FD4345, rgb(240, 240, 234));
+  width: 616px;
+  height: 539px;
+  background-color: white;
   position: relative;
   bottom: 671px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   right: 250px;
+  border: 1px solid rgb(133, 96, 96);
+  border-radius: 5px;
+}
+
+#modal-four a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #263547;
+  height: 20px;
+}
+
+#modal-four a:hover {
+  color: #35614A;
+}
+
+#modal-four-h1-div {
+  width: 100%;
+}
+
+#modal-four h1 {
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: rgb(75, 131, 75);
+}
+
+#modal-four p {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #modal-four button {
   width: 5%;
-  color: white;
+  color: black;
   font-weight: bold;
   background-color: transparent;
   border: none;  
 }
 
 #modal-four button:hover {
-  color: #263547;
+  color: #FD4345;
 }
 
 #modal-four button:focus {
@@ -311,7 +406,7 @@ color: #FD4345;
 
 #highlighted-pros {
   font-family: 'Montserrat', sans-serif;
-  
+  padding-left: 20px;
 }
 
 /* Common style */
@@ -323,7 +418,7 @@ color: #FD4345;
 	min-width: 320px;
 	max-width: 480px;
 	max-height: 360px;
-	width: 48%;
+	width: 53%;
 	height: auto;
 	background: #3085a3;
 	text-align: center;
@@ -533,6 +628,7 @@ section.effect-terry p a img {
   bottom: 63px;
 }
 
+
 #about {
   text-align: right;
   font-size: 15px;
@@ -547,6 +643,22 @@ section.effect-terry p a img {
   position: relative;
   bottom: 256px;
   right: 4px;
+}
+
+#parkvision-video {
+  width: 90%;
+}
+
+#sondar-video {
+  width: 90%;
+}
+
+#abook-video {
+  width: 90%;
+}
+
+#undisclosed-video {
+  width: 90%;
 }
 
 #sondar-html {
@@ -739,6 +851,7 @@ section.effect-terry:hover p a:nth-child(4) {
   flex-direction: column-reverse;
   width: 100%;
   align-items: center;
+  padding-top: 20px;
 }
 
 #footer h3 {
@@ -748,11 +861,10 @@ section.effect-terry:hover p a:nth-child(4) {
 #contact-me {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
   width: 19%;
   height: 100%;
-  
+  justify-content: center;
 }
 
 #email-logo {
