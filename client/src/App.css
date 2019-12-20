@@ -146,25 +146,40 @@ outline: none;
 #modal {
   width: 500px;
   height: 500px;
-  background-image: linear-gradient(to bottom left, #FD4345, rgb(240, 240, 234));
+  background-color: white;
   position: relative;
-  bottom: 671px;
+  bottom: 665px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   right: 250px;
+  border: 1px solid #FD4345;
+  border-radius: 5px;
+}
+
+#modal-h1-div {
+  width: 100%;
+}
+
+#modal h1 {
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #FD4345;
 }
 
 #modal button {
   width: 5%;
-  color: white;
+  color: #263547;
   font-weight: bold;
   background-color: transparent;
   border: none;  
 }
 
 #modal button:hover {
-  color: #263547;
+  color: #FD4345;
 }
 
 #modal button:focus {
@@ -174,6 +189,28 @@ outline: none;
 #modal p {
   padding: 10px;
   font-family: 'Montserrat', sans-serif;
+}
+
+#modal a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #263547;
+  height: 20px;
+}
+
+#modal a:hover {
+color: #FD4345;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.modal-content video {
+  display: grid;
 }
 
 #modal-two {
@@ -422,6 +459,47 @@ section.effect-terry h2 {
   bottom: 322px;
 }
 
+#abook-about {
+  text-align: right;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-left: 100px;
+  position: relative;
+  bottom: 68px;
+  left: 5px;
+}
+
+#abook-git-hub{
+  font-size: 30px;
+  position: relative;
+  bottom: 64px;
+}
+
+
+#abook-javascript {
+  font-size: 30px;
+  position: relative;
+  top: 117px;
+}
+
+#abook-rails {
+  font-size: 30px;
+  position: relative;
+  top: 441px;
+}
+
+#abook-css {
+  font-size: 30px;
+  position: relative;
+  top: 334px;
+}
+
+#html-abook {
+  font-size: 30px;
+  position: relative;
+  bottom: 41px;
+}
+
 section.effect-terry p {
 	float: right;
 	clear: both;
@@ -451,8 +529,6 @@ section.effect-terry p a img {
 
 #parkvision-git {
   width: 38px;
-  margin-left: 100px;
-  margin-top: 20px;
   position: relative;
   bottom: 63px;
 }
@@ -464,6 +540,27 @@ section.effect-terry p a img {
   margin-left: 100px;
   position: relative;
   bottom: 263px;
+}
+
+#sondar-github {
+  font-size: 30px;
+  position: relative;
+  bottom: 256px;
+  right: 4px;
+}
+
+#sondar-html {
+  bottom: 63px;
+  position: relative;
+  right: 6px;
+  font-size: 30px;
+}
+
+#sondar-css {
+  position: relative;
+  top: 117px;
+  right: 6px;
+  font-size: 30px;
 }
 
 #parkvision-about {
@@ -478,66 +575,120 @@ section.effect-terry p a img {
 #second-anchor {
   margin-bottom: 32px;
   position: relative;
-  bottom: 124px;
-  right: 11px;
-}
-
-.html-parkvision {
-    position: relative;
-    bottom: 103px;
-    right: 11px;
-}
-
-.html-parkvision:hover {
-color: #FD4345;
+  bottom: 132px;
+  right: 6px;
+  font-size: 30px;
 }
 
 #last-anchor {
   margin-bottom: 32px;
   color: white;
   position: relative;
-  bottom: 47px;
-  right: 11px;
+  bottom: 34px;
+  right: 5px;
+  font-size: 30px;
 }
 
 #last-anchor:hover {
 color: #FD4345;
 }
 
-#last-anchor-parkvision {
-  margin-bottom: 32px;
+#parkvision-git-hub-logo {
+  position: relative;
+  bottom: 41px;
+  right: 4px;
+  font-size: 30px;
+}
+
+#parkvision-javascript {
   color: white;
   position: relative;
-  right: 11px;
-  top: 123px;
+  right: 4px;
+  top: 143px;
+  font-size: 30px;
+}
+
+#parkvision-javascript:hover {
+  color: #FD4345;
+}
+
+#parkvision-css {
+  position: relative;
+  top: 331px;
+  right: 3px;
+  font-size: 30px;
+}
+
+#parkvision-html {
+  color: white;
+  position: relative;
+  bottom: 44px;
+  right: 2px;
+  font-size: 30px;
+}
+
+#parkvision-html:hover {
+  color: #FD4345;
+}
+
+#last-anchor-parkvision:hover {
+color: #FD4345;
 }
 
 #undiclosed-h2 {
   text-align: initial;
 }
 
+#html-undisclosed {
+  font-size: 30px;
+  position: relative;
+  bottom: 40px;
+  left: 1px;
+}
+
 #undisclosed-css {
-  margin-bottom: 32px;
   color: white;
   position: relative;
   right: 11px;
-  top: 123px;
+  top: 339px;
+  font-size: 30px;
+  left: 1px;
+}
+
+#undisclosed-css:hover {
+  color: #FD4345;
+}
+
+#undisclosed-git {
+  font-size: 30px;
+  position: relative;
+  bottom: 44px;
 }
 
 #undisclosed-express {
-  margin-bottom: 32px;
   color: white;
   position: relative;
-  right: 11px;
-  top: 94px;
+  right: -1px;
+  top: 455px;
+  font-size: 30px;
 }
 
-section.effect-terry p a:hover img,
-section.effect-terry p a:hover,
-section.effect-terry p a:focus {
+#undisclosed-express:hover {
   color: #FD4345;
+}
+
+#undisclosed-javascript {
+  font-size: 30px;
+  position: relative;
+  top: 137px;
+}
+
+section.effect-terry p a:focus {
   -webkit-filter: brightness(200%); /* Safari */
   filter: brightness(200%);
+}
+section.effect-terry p a:hover {
+  color: #FD4345;
 }
 
 section.effect-terry:hover #figcap::before,

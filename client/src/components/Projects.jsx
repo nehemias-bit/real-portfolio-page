@@ -22,10 +22,11 @@ export default function Projects(props) {
                   props.showModal();
                 }} href="#modal" id="about">about</a>
               
-                <a href="https://github.com/nehemias-bit/second-project.git" target="_blank" rel="noopener noreferrer"><img src="http://pngimg.com/uploads/github/github_PNG45.png" alt="git hub logo"/></a>
+                <a id="sondar-github" href="https://github.com/nehemias-bit/second-project.git" target="_blank" rel="noopener noreferrer"><i class="devicon-github-plain-wordmark"></i></a>
 
-              <a href="#" id="last-anchor"><i class="devicon-javascript-plain"></i></a>
-              
+                <a href="#" id="last-anchor"><i class="devicon-javascript-plain"></i></a>
+                <a id="sondar-html"><i class="devicon-html5-plain-wordmark"></i></a>
+                <a id="sondar-css"><i class="devicon-css3-plain-wordmark"></i></a>
 							</p>
 						</div>			
           </section>
@@ -38,17 +39,17 @@ export default function Projects(props) {
 							<h2>Parkvision</h2>
 							<p>
               
-              <a href="#" className="html-parkvision"><i class="devicon-html5-plain-wordmark"></i></a>
+              <a href="#" id="parkvision-html"><i class="devicon-html5-plain-wordmark"></i></a>
               
 								<a onClick={e => {
                   props.showModalTwo();
                 }} href="#modal-two" id="parkvision-about">about</a>
               
-                <a href="https://github.com/nehemias-bit/First-Project.git" target="_blank" rel="noopener noreferrer"><img id="parkvision-git" src="http://pngimg.com/uploads/github/github_PNG45.png" alt="git hub logo"/></a>
+                <a id="parkvision-git-hub-logo" href="https://github.com/nehemias-bit/First-Project.git" target="_blank" rel="noopener noreferrer"><i class="devicon-github-plain-wordmark"></i></a>
               
-              <a href="#" id="last-anchor-parkvision"><i class="devicon-javascript-plain"></i></a>
+              <a href="#" id="parkvision-javascript"><i class="devicon-javascript-plain"></i></a>
               
-              <a href="#" id="last-anchor-parkvision"><i class="devicon-css3-plain-wordmark"></i></a>
+              <a href="#" id="parkvision-css"><i class="devicon-css3-plain-wordmark"></i></a>
               
 							</p>
 						</div>			
@@ -64,15 +65,15 @@ export default function Projects(props) {
 							<h2 id="undiclosed-h2">Undisclosed</h2>
 							<p>
               
-              <a href="#" className="html-parkvision"><i class="devicon-html5-plain-wordmark"></i></a>
+              <a href="#" id="html-undisclosed"><i class="devicon-html5-plain-wordmark"></i></a>
               
 								<a onClick={e => {
                   props.showModalThree();
                   }} href="#modal-two" id="parkvision-about">about</a>
               
-                <a href="https://github.com/nehemias-bit/Undisclosed.git" target="_blank" rel="noopener noreferrer"><img id="parkvision-git" src="http://pngimg.com/uploads/github/github_PNG45.png" alt="website screenshot" /></a>
+                <a id="undisclosed-git" href="https://github.com/nehemias-bit/Undisclosed.git" target="_blank" rel="noopener noreferrer"><i class="devicon-github-plain-wordmark"></i></a>
               
-              <a href="#" id="last-anchor-parkvision"><i class="devicon-javascript-plain"></i></a>
+              <a href="#" id="undisclosed-javascript"><i class="devicon-javascript-plain"></i></a>
               
               <a href="#" id="undisclosed-css"><i class="devicon-css3-plain-wordmark"></i></a>
 
@@ -91,19 +92,19 @@ export default function Projects(props) {
 							<h2>abook</h2>
 							<p>
               
-              <a href="#" className="html-parkvision"><i class="devicon-html5-plain-wordmark"></i></a>
+              <a href="#" id="html-abook"><i class="devicon-html5-plain-wordmark"></i></a>
               
 								<a onClick={e => {
                   props.showModalFour();
-                  }} href="#modal-two" id="parkvision-about">about</a>
+                  }} href="#modal-two" id="abook-about">about</a>
               
-                <a href="https://github.com/nehemias-bit/abook.git" target="_blank" rel="noopener noreferrer"><img id="parkvision-git" src="http://pngimg.com/uploads/github/github_PNG45.png" alt="website screenshot" /></a>
+                <a id="abook-git-hub" href="https://github.com/nehemias-bit/abook.git" target="_blank" rel="noopener noreferrer"><i class="devicon-github-plain-wordmark"></i></a>
               
-              <a href="#" id="last-anchor-parkvision"><i class="devicon-javascript-plain"></i></a>
+              <a href="#" id="abook-javascript"><i class="devicon-javascript-plain"></i></a>
               
-              <a href="#" id="undisclosed-css"><i class="devicon-css3-plain-wordmark"></i></a>
+              <a href="#" id="abook-css"><i class="devicon-css3-plain-wordmark"></i></a>
 
-              <a href="#" id="undisclosed-express"><i class="devicon-rails-plain-wordmark"></i></a>
+              <a href="#" id="abook-rails"><i class="devicon-rails-plain-wordmark"></i></a>
               
 							</p>
 						</div>			

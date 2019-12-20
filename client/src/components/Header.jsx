@@ -1,5 +1,4 @@
 import React from 'react';
-import NehemiasResume from '../Files/NehemiasBrightResume.pdf';
 
 export default function Header(props) {
   return (

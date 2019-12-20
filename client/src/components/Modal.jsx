@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class Modal extends Component {
   constructor(props) {
@@ -18,11 +18,20 @@ export default class Modal extends Component {
               <button onClick={e => {
                 this.props.closeModal(e);
               }}>X</button>
+              <div id="modal-h1-div">
+                <h1>Sondar</h1>
+              </div>  
               <p>
                 This project was created using the React framework, a part of the Yelp api, and the freegeoip geo-location api. The page renders and automatically shows you restaurants near your location. Additionally, you are able to search for restaurants in other cities and other countries(up to 32 different countries). 
               </p>
-              <a href="https://sondar.surge.sh/" target="_blank" rel="noopener noreferrer">Sondar</a>
-            </div> : null  
+              <div className="modal-content">
+              <video src="https://i.imgur.com/DN9MR8W.mp4" width="240" height="149" autoplay="true" CONTROLLER="false" loop="true" PLUGINSPAGE="http://www.apple.com/quicktime/"></video>
+                <a href="https://sondar.surge.sh/" target="_blank" rel="noopener noreferrer">visit site</a>
+                <i class="devicon-react-original"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+
+              </div>
+          </div> : null  
         }
         {
           this.props.showTwo === true ?
